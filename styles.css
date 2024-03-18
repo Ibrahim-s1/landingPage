@@ -1,3 +1,7 @@
+html {
+  font-family: "Roboto Flex";
+}
+
 body {
   margin: 0px;
   /* height: 100vh; */
@@ -10,6 +14,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0px 70px;
+  /* background-color: #1f2937; */
 }
 .header-list {
   margin-right: 20px;
@@ -70,6 +75,7 @@ main {
 
 .Quote-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 90px;
@@ -79,6 +85,11 @@ main {
 section > p {
   /* width: 250px; */
   font-size: 2.5rem;
+  margin: 20px 0px;
+}
+section > b {
+  margin-left: auto;
+  margin-right: 10rem;
 }
 
 footer {
@@ -99,12 +110,21 @@ section:nth-of-type(3) {
 
 .action {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: #3882f6;
   width: 800px;
   padding: 20px 80px;
   border-radius: 8px;
+}
+
+.action > button {
+  border: 2px solid;
+  border-style: outset;
+}
+.action > button:active {
+  border: none;
+  border-style: inset;
 }
 
 button {

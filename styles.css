@@ -9,6 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 70px;
 }
 .header-list {
   margin-right: 20px;
@@ -32,6 +33,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 90px;
 }
 
 .main-img {
@@ -42,6 +44,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0px 90px 120px 90px;
 }
 
 .box-content {
@@ -69,6 +72,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 90px;
+  background-color: #e5e7eb;
 }
 
 section > p {
@@ -80,4 +85,32 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1f2937;
+  color: white;
+}
+
+section:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  width: 800px;
+  padding: 20px 80px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: white;
 }
